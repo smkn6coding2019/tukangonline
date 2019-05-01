@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "992483860775",
+    "firebase_url": "https://smkcoding-f7acc.firebaseio.com",
+    "project_id": "smkcoding-f7acc",
+    "storage_bucket": "smkcoding-f7acc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992483860775:android:8fb1a73177efe041",
+        "android_client_info": {
+          "package_name": "com.example.smkcoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992483860775-503g589jlrehspct244o6vn2lgvqve5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smkcoding",
+            "certificate_hash": "b429e97581255dc141f78c55452a0f0c958bb05d"
+          }
+        },
+        {
+          "client_id": "992483860775-78aqadni0dc3h2hjuavg7ldi8eiv7l0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7jVRHw6ix9Lj7iyHdsG-YpMbe-SS8t-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992483860775-78aqadni0dc3h2hjuavg7ldi8eiv7l0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".LoginActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <TextView
+                android:id="@+id/textview"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tukang Online"
+                android:layout_marginTop="150dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        <EditText
+                android:id="@+id/tv_username"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:hint="@string/email"
+                android:layout_marginTop="250dp"
+                android:textColorHint="@color/backgroundColor"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@mipmap/ic_launcher_user"
+                android:layout_centerHorizontal="true"/>
+
+        <EditText
+                android:id="@+id/tv_password"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:hint="@string/password"
+                android:layout_marginTop="310dp"
+                android:textColorHint="@color/backgroundColor"
+                android:inputType="textPassword"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@mipmap/ic_launcher_user"/>
+        <Button
+                android:id="@+id/btn_log_in"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundColor"
+                android:padding="16dp"
+                android:text="@string/login"
+                android:textSize="18sp"
+                android:layout_marginTop="390dp"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+        />
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/btn_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:text="@string/dont_have_account"
+            android:textColor="@color/backgroundColor"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
